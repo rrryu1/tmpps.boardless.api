@@ -11,7 +11,7 @@
     "**/bin": true,
     "**/obj": true
   },
-  "editor.formatOnType": true,
+  "files.autoSave": "onFocusChange",
   "editor.formatOnPaste": false,
   "editor.formatOnSave": true,
   "editor.detectIndentation": false,
@@ -24,7 +24,7 @@
   "prettier.singleQuote": true,
   "prettier.disableLanguages": ["jchannon.csharpextensions"],
   "csproj.excludeRegex": "*.cs",
-"cSpell.words": [
+  "cSpell.words": [
     "Autofac",
     "CQRS",
     "Hmac",
@@ -47,7 +47,7 @@
     "postgresql",
     "psql",
     "tmpps"
-],
+  ],
   "cSpell.ignoreRegExpList": ["/.*ー/"],
   "cSpell.ignorePaths": [
     "**/package-lock.json",

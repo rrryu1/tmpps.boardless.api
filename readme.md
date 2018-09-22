@@ -7,7 +7,7 @@ tmpps.boardless の API サーバー
 - .Net core 2.1
 - node.js
 - AWS SQS  
-  [アプリケーション設定](./.docs/appsettings.md)に認証情報を追加する
+  アプリケーション設定に認証情報を追加する
 
 #### Options
 
@@ -51,9 +51,6 @@ tmpps.boardless の API サーバー
 
 vscode でデバッグ実行可能
 
-## 関連ドキュメント
+## リンク
 
-- [アーキテクチャ](./.docs/architecture-design.md)
-- [規約](./.docs/rules.md)
-- [データ移行](./.docs/db-migration.md)
-- [アプリケーション設定](./.docs/appsettings.md)
+- [ドキュメント](https://github.com/wakuwaku3/tmpps.boardless.docs)
