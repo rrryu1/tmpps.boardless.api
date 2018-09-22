@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.Web">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+    </PropertyGroup>
+    <PropertyGroup>
+        <UserSecretsId>boardless-web-secret</UserSecretsId>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\Tmpps.Boardless.UseCases\Tmpps.Boardless.UseCases.csproj" />
+        <ProjectReference Include="..\Tmpps.Infrastructure.AspNetCore\Tmpps.Infrastructure.AspNetCore.csproj" />
+        <ProjectReference Include="..\Tmpps.Infrastructure.Autofac\Tmpps.Infrastructure.Autofac.csproj" />
+        <ProjectReference Include="..\Tmpps.Infrastructure.BoardlessData\Tmpps.Infrastructure.BoardlessData.csproj" />
+        <ProjectReference Include="..\Tmpps.Infrastructure.SQS\Tmpps.Infrastructure.SQS.csproj" />
+        <ProjectReference Include="..\Tmpps.Infrastructure.JsonWebToken\Tmpps.Infrastructure.JsonWebToken.csproj" />
+        <ProjectReference Include="..\Tmpps.Infrastructure.Npgsql.Entity\Tmpps.Infrastructure.Npgsql.Entity.csproj"/>
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.All" Version="2.1.2" />
+    </ItemGroup>
+</Project>

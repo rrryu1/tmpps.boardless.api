@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\Tmpps.Boardless.UseCases\Tmpps.Boardless.UseCases.csproj" />
+        <ProjectReference Include="..\Tmpps.Infrastructure.Npgsql.Entity\Tmpps.Infrastructure.Npgsql.Entity.csproj" PrivateAssets="All"/>
+    </ItemGroup>
+
+</Project>

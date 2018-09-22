@@ -1,0 +1,32 @@
+{
+  "name": "tmpps.boardless",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-dotnet-cli": "^1.1.0",
+    "gulp-zip": "^4.2.0",
+    "path": "^0.12.7",
+    "run-sequence": "^2.2.1"
+  },
+  "scripts": {
+    "web": "gulp run-web",
+    "subscriber": "gulp run-subscriber",
+    "install": "gulp restore",
+    "restore": "gulp restore",
+    "build": "gulp build",
+    "build-web": "gulp build-web",
+    "build-cli": "gulp build-cli",
+    "build-subscriber": "gulp build-subscriber",
+    "publish": "gulp publish",
+    "test": "gulp test",
+    "db": "gulp db",
+    "migration": "gulp migration"
+  },
+  "author": "",
+  "license": "ISC"
+}
