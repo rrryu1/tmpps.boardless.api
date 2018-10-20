@@ -1,0 +1,17 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: microsoft/dotnet:sdk
+    steps:
+      - checkout
+      - run:
+          # https://nodejs.org/ja/download/package-manager/#debian-and-ubuntu-based-linux-distributions-debian-ubuntu-linux
+          name: setup
+          command: wget -qO- https://deb.nodesource.com/setup_10.x | bash - && apt-get install -y nodejs
+      - run:
+          name: build
+          command: npm i && npm run build
+      - run:
+          name: test
+          command: npm run test
